@@ -1,0 +1,81 @@
+  .cupcake {
+            margin-bottom: 20px;
+        }
+
+        /* 🎀 Pink basket with cute style */
+        #basket {
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #ffe6f2; /* 🌸 light pink */
+            border: 2px solid #ff99cc; /* 🌸 darker pink border */
+            font-style: italic; /* 🌸 makes the text slanted */
+            font-family: cursive; /* 🌸 not Arial, more fun */
+            color: #ff66b2; /* 🌸 pink text */
+        }
+
+        /* 🎀 Make each list item inside the basket pink too */
+        #basketItems li {
+            color: #ff66b2; /* 🌸 pink text */
+        }
+
+        /* 🎀 Basket title text is pink and italic too */
+        #basket h3 {
+            color: #ff66b2;
+            font-style: italic;
+            font-family: cursive;
+        }
+
+
+body {
+ background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:Monospace; /* Readable font */
+    color: #333; /* Dark gray text color for readability */
+}
+
+h2 {
+    color: #e75480; /* Pink color for the heading */
+    background-color: #ffb6c1; /* Light pink background for the heading */
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the heading */
+}
+
+pre {
+    background-color: #fff0f5; /* Very light pink background for the menu */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the menu */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D effect */
+}
+
+p {
+    font-size: 18px;
+    color: #e75480; /* Pink color for the text */
+    margin: 10px 0;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px; /* Rounded corners for images */
+    border: 2px solid #e75480; /* Pink border for images */
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px; /* Ten for ups and downs and twenty for left and right */
+    background-color: #e75480; /* Pink background for the button */
+    color: white; /* White text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer;
+    font-size: 16px; /* Slightly larger font for readability */
+}
+
+button:hover {
+    background-color: #ff69b4; /* Brighter pink on hover */
+}
