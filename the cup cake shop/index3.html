@@ -13,7 +13,7 @@
         <ul id="copiedItems"></ul>
     </div>
 
-    <!-- 🏠 Delivery selection -->
+    
     <div style="margin-top: 30px;">
         <label>where to deliver:
             <select id="deliverySelect" onchange="showDoneButton()">
@@ -25,14 +25,13 @@
         </label>
     </div>
 
-    <!-- 🎉 DONE BUTTON -->
-    <button id="doneButton" onclick="showLocationMessage()">All Done! 🎉🍰</button>
+    
+    <button id="doneButton" onclick="showLocationMessage()">All Done! 💌🎉</button>
 
-    <!-- 💌 Final Message -->
+    
     <div id="finalMessage"></div>
 
     <script>
-        // 🧁 Load saved basket
         const savedBasket = localStorage.getItem('cupcakeBasket');
         const itemList = document.getElementById('copiedItems');
 
@@ -47,7 +46,7 @@
             itemList.innerHTML = "<li> why didnt u buy any?!! 😢</li>";
         }
 
-        // 🌟 Show the "All Done" button if something is selected
+        //  Show the "All Done" button ONLY IF if sth got selected
         function showDoneButton() {
             const select = document.getElementById('deliverySelect');
             const button = document.getElementById('doneButton');
@@ -58,7 +57,7 @@
             }
         }
 
-        // 💌 Show a cute message depending on location
+        // now ill Show  cute msg depending on location
         function showLocationMessage() {
             const select = document.getElementById('deliverySelect');
             const message = document.getElementById('finalMessage');
